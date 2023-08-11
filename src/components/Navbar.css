@@ -27,6 +27,7 @@
   align-items: center;
   justify-content: space-between;
   cursor: default;
+  color: #121254;
 }
 
 .logoIcon {
@@ -41,6 +42,7 @@
   justify-content: space-evenly;
   width: 600px;
   height: 100%;
+  font-size: 15px;
 }
 
 .Navbar__link {
@@ -50,6 +52,7 @@
   height: 70%;
   padding: 13px;
   cursor: no-drop;
+  color: #090e2d;
 }
 
 .purple {
@@ -75,6 +78,7 @@
   height: 80%;
   padding: 0 20px;
   cursor: no-drop;
+  font-size: 15px;
 }
 
 .loginBtn {
