@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0 40px;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Navbar__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  height: 100%;
+  width: 100px;
+  display: flex;
+
+  font-size: 10px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+
+.logoIcon {
+  height: 30px;
+  width: 25px;
+  color: #7065f0;
+}
+
+.Navbar__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 600px;
+  height: 100%;
+}
+
+.Navbar__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  padding: 13px;
+  cursor: no-drop;
+}
+
+.purple {
+  color: #7065f0;
+  background-color: #e8e7f9;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.Navbar__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  height: 100%;
+}
+
+.Navbar__right > button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  height: 80%;
+  padding: 0 20px;
+  cursor: no-drop;
+}
+
+.loginBtn {
+  border: 1px solid #dfdcf7;
+  color: #7065f0;
+}
+
+.signUpBtn {
+  background-color: #7065f0;
+  color: white;
+}
