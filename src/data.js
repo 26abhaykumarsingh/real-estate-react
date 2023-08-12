@@ -282,7 +282,7 @@ export const data = [
     name: "Luxury Villa",
     price: 15000,
     location: "Mumbai",
-    propertyType: "Villa",
+    propertyType: "House",
     furnishedStatus: "Furnished",
     imageUrl:
       "https://images.unsplash.com/photo-1635108201018-94bbbfac4a79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
