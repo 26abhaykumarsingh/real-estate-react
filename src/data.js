@@ -269,4 +269,22 @@ export const data = [
     imageUrl:
       "https://images.unsplash.com/photo-1492889971304-ac16ab4a4a5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
   },
+  {
+    name: "Downtown Apartment",
+    price: 8500,
+    location: "Delhi",
+    propertyType: "Apartment",
+    furnishedStatus: "Not Furnished",
+    imageUrl:
+      "https://images.unsplash.com/photo-1504643039591-52948e3ddb47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwzMzgxNDY5fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  {
+    name: "Luxury Villa",
+    price: 15000,
+    location: "Mumbai",
+    propertyType: "Villa",
+    furnishedStatus: "Furnished",
+    imageUrl:
+      "https://images.unsplash.com/photo-1635108201018-94bbbfac4a79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+  },
 ];
