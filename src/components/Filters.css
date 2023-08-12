@@ -1,0 +1,32 @@
+.Filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Filters__list {
+  display: flex;
+}
+
+.filter {
+  margin: 0 10px;
+  width: 200px;
+}
+
+.filter > Select {
+  border: none;
+}
+
+.Filters__searchBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  height: 40px;
+  padding: 0 30px;
+  font-size: 15px;
+  background-color: #7065f0;
+  color: white;
+  margin-left: 10px;
+}

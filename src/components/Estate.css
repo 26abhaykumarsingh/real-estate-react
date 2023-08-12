@@ -1,0 +1,110 @@
+.Estate {
+  height: 300px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+.Estate__image {
+  height: 150px;
+  width: 270px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.image {
+  height: 150px;
+  width: 270px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.Estate__down {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.Estate__down__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+.Estate__down__top__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.Estate__price {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #7065f0;
+}
+
+.perMonth {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #838696;
+}
+
+.Estate__name {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.Estate__location {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #838696;
+}
+
+.placeIcon,
+.weekendIcon,
+.foundationIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7065f0;
+}
+
+.Estate__down__down {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #838696;
+}
+
+.Estate__down__down > div {
+  display: flex;
+}
+
+.Estate__down__top__like {
+  border: 2px solid #e0def6;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: #7065f0;
+}
