@@ -135,14 +135,15 @@ export const data = [
       "https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
-    name: "Luxury Villa",
-    price: 11500,
+    name: "Cute House",
+    price: 6800,
     location: "Chennai",
     propertyType: "House",
     furnishedStatus: "Furnished",
     imageUrl:
       "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
   },
+
   {
     name: "Sunny Condo",
     price: 8600,
@@ -279,7 +280,7 @@ export const data = [
       "https://images.unsplash.com/photo-1504643039591-52948e3ddb47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwzMzgxNDY5fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
-    name: "Luxury Villa",
+    name: "Luxurious Villa",
     price: 15000,
     location: "Mumbai",
     propertyType: "House",
