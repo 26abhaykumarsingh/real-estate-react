@@ -6,24 +6,17 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-function Filters() {
-  const [location, setLocation] = React.useState("");
-  const [propertyType, setPropertyType] = React.useState("");
-  const [priceRange, setPriceRange] = React.useState("");
-  const [isFurnished, setIsFurnished] = React.useState("");
-
-  const handleChangeLocation = (event) => {
-    setLocation(event.target.value);
-  };
-  const handleChangePropertyType = (event) => {
-    setPropertyType(event.target.value);
-  };
-  const handleChangePriceRange = (event) => {
-    setPriceRange(event.target.value);
-  };
-  const handleChangeIsFurnished = (event) => {
-    setIsFurnished(event.target.value);
-  };
+function Filters({
+  location,
+  propertyType,
+  priceRange,
+  isFurnished,
+  handleChangeLocation,
+  handleChangePropertyType,
+  handleChangePriceRange,
+  handleChangeIsFurnished,
+  handleSearch,
+}) {
   return (
     <div className="Filters">
       <div className="Filters__list">
@@ -38,10 +31,10 @@ function Filters() {
                 label="Location"
                 onChange={handleChangeLocation}
               >
-                <MenuItem value={"delhi"}>Delhi</MenuItem>
-                <MenuItem value={"mumbai"}>Mumbai</MenuItem>
-                <MenuItem value={"kolkata"}>Kolkata</MenuItem>
-                <MenuItem value={"chennai"}>Chennai</MenuItem>
+                <MenuItem value={"Delhi"}>Delhi</MenuItem>
+                <MenuItem value={"Mumbai"}>Mumbai</MenuItem>
+                <MenuItem value={"Kolkata"}>Kolkata</MenuItem>
+                <MenuItem value={"Chennai"}>Chennai</MenuItem>
               </Select>
             </FormControl>
           </Box>
@@ -57,9 +50,9 @@ function Filters() {
                 label="Property Type"
                 onChange={handleChangePropertyType}
               >
-                <MenuItem value={"apartment"}>Apartment</MenuItem>
-                <MenuItem value={"house"}>House</MenuItem>
-                <MenuItem value={"condo"}>Condo</MenuItem>
+                <MenuItem value={"Apartment"}>Apartment</MenuItem>
+                <MenuItem value={"House"}>House</MenuItem>
+                <MenuItem value={"Condo"}>Condo</MenuItem>
               </Select>
             </FormControl>
           </Box>
@@ -75,10 +68,10 @@ function Filters() {
                 label="Price Range"
                 onChange={handleChangePriceRange}
               >
-                <MenuItem value={10}>5K-7K</MenuItem>
-                <MenuItem value={20}>7K-9K</MenuItem>
-                <MenuItem value={30}>9K-11K</MenuItem>
-                <MenuItem value={30}>11K&gt;</MenuItem>
+                <MenuItem value={1}>₹5K - ₹7K</MenuItem>
+                <MenuItem value={2}>₹7K - ₹9K</MenuItem>
+                <MenuItem value={3}>₹9K - ₹11K</MenuItem>
+                <MenuItem value={4}>₹11K &gt;</MenuItem>
               </Select>
             </FormControl>
           </Box>
@@ -94,14 +87,16 @@ function Filters() {
                 label="Age"
                 onChange={handleChangeIsFurnished}
               >
-                <MenuItem value={"yes"}>Yes</MenuItem>
-                <MenuItem value={"no"}>No</MenuItem>
+                <MenuItem value={"Furnished"}>Yes</MenuItem>
+                <MenuItem value={"Not Furnished"}>No</MenuItem>
               </Select>
             </FormControl>
           </Box>
         </div>
       </div>
-      <button className="Filters__searchBtn">Search</button>
+      <button className="Filters__searchBtn" onClick={handleSearch}>
+        Search
+      </button>
     </div>
   );
 }

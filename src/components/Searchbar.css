@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 130px;
+  padding: 50px 166px;
   padding-top: 60px;
 }
 
@@ -26,6 +26,7 @@
   color: #6c6896;
   border: 1px solid #dedcf5;
   border-radius: 4px;
+  cursor: no-drop;
 }
 
 .downIcon {

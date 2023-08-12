@@ -19,14 +19,21 @@
 }
 
 .Filters__searchBtn {
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 4px;
-  height: 40px;
-  padding: 0 30px;
-  font-size: 15px;
+  border-radius: 7px;
+  height: 55px;
+  padding: 0 40px;
+  font-size: 16px;
+  font-weight: 500;
   background-color: #7065f0;
   color: white;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.Filters__searchBtn:active {
+  background-color: #433c8c;
 }
